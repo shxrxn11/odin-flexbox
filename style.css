@@ -1,6 +1,9 @@
 .hero{
     background-color: #1F2937;
-    padding: 10px;
+    /* padding: 10px; */
+    padding-left: 140px;
+    padding-right: 150px;
+    padding-bottom: 25px;
 }
 
 .header2{
@@ -35,7 +38,7 @@ ul{
 
 li{
     flex-direction: column;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 h2{
@@ -79,6 +82,8 @@ img{
 
 .secondPart{
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .thirdDiv{
@@ -161,7 +166,8 @@ h3{
     padding: 20px;
     border-radius: 15px;
     display: flex;
-    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 h4{
@@ -180,6 +186,7 @@ h4{
 .info{
     padding: 10px;
     display: inline;
+    margin-right: 200px;
 }
 
 .btn2{
@@ -201,15 +208,14 @@ h4{
     border-radius: 5px;
     cursor: pointer;
     border-color: #fff;
-    border: 2px solid
+    border: 2px solid;
+    display: flex;
+    margin-right: auto;
 }
 
-.footer{
+footer{
     background-color: #1F2937;
     color: #fff;
     padding: 25px;
-}
-
-.footer p{
     text-align: center;
 }
